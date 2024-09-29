@@ -17,3 +17,11 @@ This project relies on the following dependencies:
 - `Serilog`: A logging library for .NET applications.
 - `MassTransit`: The core framework for building message-based applications.
 - `RabbitMQ`: The message broker used by MassTransit for message transport.
+
+## Running the Solution with Docker Compose
+
+Instead of running the services individually, you can use Docker Compose to manage the containers. Docker Compose allows you to define and run multi-container applications with a single command.
+
+```
+docker-compose up
+```
